@@ -1,0 +1,8 @@
+# uSimmics 5.9  C:/Users/kuksa/.qucs/CPW_sample_prj/cpw_sample.sch
+
+CLIN:CL1 _net0 _net1 "Subst1" "40 um" "25 um" "1 mm" "26.85"
+CLIN:CL2 _net1 _net2 "Subst1" "40 um" "10 um" "2 mm" "26.85"
+SUBST:Subst1 "11.7" "500 um" "0" "2e-4" "0" "0" "Metal" "Hammerstad" "Kirschning"
+Pac:P1 _net0 gnd "1" "50 Ω" "0 dBm" "1 GHz" "26.85" "con_2"
+Pac:P2 _net2 gnd "2" "50 Ω" "0 dBm" "1 GHz" "26.85" "con_2"
+.SP:SP1 "lin" "0.1 GHz" "30 GHz" "100" "no" "1" "2" "none"
